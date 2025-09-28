@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blue Bahari Group — Women Leading the Waves</title>
+  <meta name="description" content="Blue Bahari Group empowers women in Tanzania’s blue economy through fishing, training, market access, and ocean stewardship.">
+  <link rel="canonical" href="https://bluebahari.com/">
+  <!-- Icons/manifest (if you upload these to root) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <meta name="theme-color" content="#0ea5e9">
+  <!-- OG/Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blue Bahari Group">
+  <meta property="og:description" content="Women leading Tanzania’s blue economy.">
+  <meta property="og:url" content="https://bluebahari.com/">
+  <meta property="og:image" content="https://bluebahari.com/bluebahari-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blue Bahari Group">
+  <meta name="twitter:description" content="Women leading Tanzania’s blue economy.">
+  <meta name="twitter:image" content="https://bluebahari.com/bluebahari-logo.png">
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- JSON-LD Organization -->
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Organization", "name": "Blue Bahari Group", "url": "https://bluebahari.com/", "logo": "https://bluebahari.com/bluebahari-logo.png", "founder": "Adv. Julieth Venant Rushuli", "sameAs": []}
+  </script>
+  <style>
+    /* Small helper styles */
+    .credit { color:#94a3b8; font-size:12px; }
+  </style>
 </head>
 <body class="bg-sky-50 text-slate-800">
-  <header class="bg-white sticky top-0 z-50 border-b">
+  <!-- Navbar -->
+  <header class="bg-white/90 backdrop-blur sticky top-0 z-50 border-b">
     <div class="max-w-6xl mx-auto flex items-center justify-between px-4 h-16">
       <div class="flex items-center gap-3">
-        <img src="assets/logo.jpg" class="h-10 w-10 rounded bg-white object-contain shadow border" alt="Blue Bahari logo">
+        <img src="assets/logo.jpg" class="h-10 w-10 rounded bg-white object-contain shadow border" alt="Blue Bahari logo" loading="lazy" width="40" height="40">
         <div class="font-semibold leading-tight">
           <div>Blue Bahari Group</div>
           <div class="text-xs text-slate-500">Women Leading the Waves</div>
@@ -26,38 +54,55 @@
     </div>
   </header>
 
+  <!-- Hero -->
   <section class="relative">
-    <img src="assets/slide1.jpg" class="w-full h-[420px] object-cover opacity-70">
+    <img src="assets/slide1.jpg" class="w-full h-[420px] object-cover opacity-70" alt="Coastal women walking" loading="lazy">
     <div class="absolute inset-0 flex items-center justify-center text-center text-white">
-      <div>
+      <div class="px-4">
         <h1 class="text-4xl font-extrabold drop-shadow">Empowering women across Tanzania’s blue economy</h1>
-        <p class="mt-4 max-w-2xl mx-auto drop-shadow">From boat ownership and sustainable fishing to market access and ocean stewardship — we support women to lead and thrive.</p>
+        <p class="mt-4 max-w-2xl mx-auto drop-shadow">
+          From boat ownership and sustainable fishing to market access and ocean stewardship — we support women to lead and thrive.
+        </p>
       </div>
     </div>
   </section>
 
+  <!-- About -->
   <section id="about" class="max-w-6xl mx-auto py-16 px-4">
     <h2 class="text-3xl font-bold mb-4">Who We Are</h2>
-    <p class="text-slate-600 mb-6">Blue Bahari Group is a women-led initiative founded by Adv. Julieth Rushuli. We champion women’s participation throughout the fisheries value chain.</p>
+    <p class="text-slate-600 mb-6">
+      Blue Bahari Group is a women-led initiative founded by Adv. Julieth Venant Rushuli. We champion women’s participation throughout the fisheries value chain — not only in processing and sales, but also in boat ownership and direct fishing.
+    </p>
     <ul class="grid grid-cols-2 gap-2 text-slate-700">
       <li>• Equality</li><li>• Sustainability</li><li>• Innovation</li><li>• Collaboration</li><li>• Integrity</li>
     </ul>
   </section>
 
+  <!-- Programs -->
   <section id="programs" class="max-w-6xl mx-auto py-16 px-4">
     <h2 class="text-3xl font-bold mb-8 text-center">Programs & Services</h2>
     <div class="grid md:grid-cols-3 gap-6 mb-8">
-      <div class="bg-white p-6 rounded shadow"><h3 class="font-semibold">Processing & Value Addition</h3><p>Hygienic handling, drying, packaging, and preservation.</p></div>
-      <div class="bg-white p-6 rounded shadow"><h3 class="font-semibold">Training & Capacity Building</h3><p>Sustainable fishing, conservation, safety, business skills.</p></div>
-      <div class="bg-white p-6 rounded shadow"><h3 class="font-semibold">Community Trade Networks</h3><p>Market linkages that connect women fishers with buyers.</p></div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Processing & Value Addition</h3>
+        <p>Hygienic handling, drying, packaging, and preservation.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Training & Capacity Building</h3>
+        <p>Sustainable fishing, conservation, safety, business skills.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Community Trade Networks</h3>
+        <p>Market linkages that connect women fishers with buyers.</p>
+      </div>
     </div>
     <div class="grid md:grid-cols-2 gap-6">
-      <img src="assets/IMG-20250905-WA0369.jpg" class="rounded shadow">
-      <img src="assets/slide2.jpg" class="rounded shadow">
+      <img src="assets/IMG-20250905-WA0369.jpg" class="rounded shadow" alt="Fresh prawns catch" loading="lazy">
+      <img src="assets/slide2.jpg" class="rounded shadow" alt="Woman holding fish and smiling" loading="lazy">
     </div>
   </section>
 
-  <section class="bg-white py-16 px-4">
+  <!-- Why It Matters -->
+  <section class="bg-white/70 py-16 px-4">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-3xl font-bold mb-8 text-center">Why It Matters</h2>
       <div class="grid md:grid-cols-3 gap-6 mb-8">
@@ -66,48 +111,80 @@
         <div class="bg-white p-6 rounded shadow"><h3 class="font-semibold">Inclusive Growth</h3><p>A stronger, fairer blue economy for Tanzania.</p></div>
       </div>
       <div class="grid md:grid-cols-2 gap-6">
-        <img src="assets/slide4.jpg" class="rounded shadow">
-        <img src="assets/wanawake.jpg" class="rounded shadow">
+        <img src="assets/slide4.jpg" class="rounded shadow" alt="Smiling woman with large fish" loading="lazy">
+        <img src="assets/wanawake.jpg" class="rounded shadow" alt="Women fishing from a canoe" loading="lazy">
       </div>
     </div>
   </section>
 
+  <!-- Leadership -->
+  <section id="leadership" class="max-w-6xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Leadership</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Adv. Julieth Venant Rushuli</h3>
+        <p class="text-slate-600 text-sm">Chairperson — Founder and chair, leading strategy for women’s participation in fisheries and blue economy.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Erick Venant</h3>
+        <p class="text-slate-600 text-sm">Vice Chairperson — Supports partnerships and expansion of coastal training programs across regions.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Martha W. Nanjombi</h3>
+        <p class="text-slate-600 text-sm">Treasurer — Oversees transparent financial systems and market access initiatives for women groups.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Siwema</h3>
+        <p class="text-slate-600 text-sm">Secretary — Coordinates member services, documentation, and stakeholder communications.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold">Yunis Sospeter Bundala</h3>
+        <p class="text-slate-600 text-sm">Board Member — Community leader supporting governance, outreach, and coastal women’s participation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partnerships & MoUs -->
   <section id="partners" class="max-w-6xl mx-auto py-16 px-4">
     <h2 class="text-3xl font-bold mb-6 text-center">Partnerships & MoUs</h2>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white p-6 rounded shadow">
-        <h3 class="font-semibold mb-2">Joint Venture MoU</h3>
-        <p>Blue Bahari Group × Gramaki General Supplies — advancing women’s participation and incomes across fisheries while ensuring environmental stewardship.</p>
+        <h3 class="font-semibold mb-2">Joint Venture MoU (Blue Bahari Group × Gramaki General Supplies)</h3>
+        <ul class="list-disc pl-6 space-y-2 text-slate-700 text-sm">
+          <li>Purpose: a practical, community-based model advancing women’s participation and incomes across fisheries while ensuring environmental stewardship.</li>
+          <li>Geography: initial focus on the Lake Zone with potential scale along the coast.</li>
+          <li>Banking & recognition: submission letter prepared to CRDB Bank Head Office for support/recognition of the initiative.</li>
+          <li>Contact for MoU matters: <strong>Adv. Julieth Venant Rushuli</strong> — <a class="underline" href="mailto:juliethrushuli@gmail.com">juliethrushuli@gmail.com</a>; <a class="underline" href="tel:+255752500091">+255 752 500 091</a>.</li>
+        </ul>
       </div>
       <div class="bg-white p-6 rounded shadow">
-        <h3 class="font-semibold mb-2">What partners bring</h3>
-        <ul class="list-disc pl-6"><li>Equipment & safety kits</li><li>Training support</li><li>Market access</li><li>Conservation collaborations</li><li>Inclusive finance products</li></ul>
+        <h3 class="font-semibold mb-2">What partners can bring</h3>
+        <ul class="list-disc pl-6 text-slate-700 text-sm">
+          <li>Equipment & safety kits for women fishers</li>
+          <li>Training & certification support</li>
+          <li>Market access and fair purchasing agreements</li>
+          <li>Conservation collaborations (reefs, mangroves)</li>
+          <li>Inclusive finance products tailored to coastal women</li>
+        </ul>
       </div>
     </div>
   </section>
 
+  <!-- Contact (no form) -->
   <section id="contact" class="bg-sky-600 text-white py-16 px-4">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
-      <div>
-        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
-        <ul class="space-y-2">
-          <li>📞 +255 747 889 383 • +255 789 666 778</li>
-          <li>✉️ info@bluebahari.com • juliethrushuli@gmail.com</li>
-          <li>📍 P.O. Box 6352, Yacht Club Road / Mori Street, Sinza Ward, Dar es Salaam</li>
-        </ul>
-      </div>
-      <form class="bg-white text-slate-800 p-6 rounded shadow space-y-3">
-        <input type="text" placeholder="Your name" class="w-full border p-2 rounded">
-        <input type="email" placeholder="Email" class="w-full border p-2 rounded">
-        <textarea placeholder="Your message..." class="w-full border p-2 rounded h-28"></textarea>
-        <button class="bg-sky-600 text-white px-4 py-2 rounded">Send</button>
-      </form>
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+      <ul class="space-y-2">
+        <li>📞 <a class="underline text-white/90" href="tel:+255747889383">+255 747 889 383</a> • <a class="underline text-white/90" href="tel:+255789666778">+255 789 666 778</a></li>
+        <li>✉️ <a class="underline text-white/90" href="mailto:info@bluebahari.com">info@bluebahari.com</a> • <a class="underline text-white/90" href="mailto:juliethrushuli@gmail.com">juliethrushuli@gmail.com</a></li>
+        <li>📍 P.O. Box 6352, Yacht Club Road / Mori Street, Sinza Ward, Dar es Salaam, Tanzania</li>
+      </ul>
     </div>
   </section>
 
   <footer class="text-center text-slate-500 py-8 text-sm">
-    © 2025 Blue Bahari Group — Women Leading the Waves
+    <div>© 2025 Blue Bahari Group — Women Leading the Waves</div>
+    <div class="credit mt-2">Developed by Edwin Mashayo</div>
   </footer>
 </body>
 </html>
-
